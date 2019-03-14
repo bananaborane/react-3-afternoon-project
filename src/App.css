@@ -31,3 +31,56 @@
     transform: rotate(360deg);
   }
 }
+
+.header{
+  background: skyblue;
+  width: 100vw;
+  padding: 0;
+  border: none;
+
+}
+
+.display {
+  background: white;
+  border: 1px dashed black;
+  width: 90vw;
+
+}
+
+body {
+  background: darkslategray
+}
+
+.fullname {
+  text-decoration: underline;
+  text-decoration-color: skyblue;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.all-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.previous-next-buttons {
+  color:white;
+  background-color: darkslategray;
+  font-size: 1.2rem;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.new-person-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
